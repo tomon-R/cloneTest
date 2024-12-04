@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "name": "source",
+            "path": "./.."
+        },
+        {
+            "name": "test sample",
+            "path": "./../../cloneTest"
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "files.autoSave": "onFocusChange",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[shellscript]": {
+            "files.eol": "\n",
+            "editor.defaultFormatter": "foxundermoon.shell-format"
+        },
+        "[xml]": {
+            "editor.defaultFormatter": "redhat.vscode-xml"
+        },
+
+        "xml.format.preserveEmptyContent": true,
+        "xml.format.joinContentLines": false,
+        "xml.format.preservedNewlines": 2,
+        "xml.format.maxLineWidth": 0,
+        "xml.format.emptyElements": "ignore",
+        "xml.validation.enabled": false,
+        "[ignore]": {
+            "editor.defaultFormatter": "foxundermoon.shell-format"
+        }
+    }
+}
